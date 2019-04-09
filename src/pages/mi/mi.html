@@ -17,24 +17,46 @@
 
 
 <ion-content padding class="bg-image5">
-<div calss="form-group"> 
-<label for="nombre">Nombre</label>
-<input type="text" class="form-control">  
-<label for="cedula"># Cédula</label>
-<input type="number" class="form-control">
-<label for="celular">Movil</label>
-<input type="number" class="form-control">
-<label for="fecha">Fecha de reserva</label>
-<input type="datetime-local" class="form-control">
-<label for="invitados"># invitados</label>
-<input type="number" class="form-control">
-<label for="motivo">Motivo celebración</label>
-<input type="text" class="form-control">
+<ion-list>
+  <ion-item class="labelMi">
+    <ion-label floating>Nombre</ion-label>
+    <ion-input type="text" value="" #nombre class="input" ></ion-input>
+  </ion-item><br>
+
+  <ion-item class="labelMi">
+    <ion-label for="cedula">CEDULA</ion-label>
+    <ion-input type="number" name="cedula"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="telefono">Telefono</ion-label>
+      <ion-input type="number" name="telefono"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelRe">
+      <ion-label for="fecha">Fecha de Reserva</ion-label>
+      <ion-input type="date" name="date"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="invitados">#Invitados</ion-label>
+      <ion-input type="number" name="invitados"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="motivo">Motivo</ion-label>
+      <ion-input></ion-input>
+  </ion-item>
 
 
+</ion-list>
 
 
-</div>
+ <div class="centrar">
+      <button ion-button  >
+      Crear Espacio
+      </button>
+  </div>
 
 
 </ion-content>
