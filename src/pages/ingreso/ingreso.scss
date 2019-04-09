@@ -1,0 +1,28 @@
+page-ingreso {
+    .bg-image2{
+        background-image: url('../assets/background/45128303_1147771745397741_3245041031296581632_n.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+    .input{
+        margin: 100px 3;
+        box-sizing: border-box;
+       background-color: transparent;
+       border: 2px solid red;
+       border-radius: 4px;
+      
+    }
+ 
+    .labelR{
+        margin: 100px 3;
+        box-sizing: border-box;
+       background-color: transparent;
+       border: mediumblue;
+    }
+    .toolbar-background{
+        background-color: transparent!important;
+        
+      }
+
+}

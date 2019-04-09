@@ -1,0 +1,47 @@
+<!--
+  Generated template for the IngresoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle class="toolbar-container">
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>INGRESO</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-image2">
+  <ion-list >   
+      
+    <ion-item class="labelR">
+      <ion-label floating>Correo</ion-label><br>
+      <ion-input type='text' value="" #correo class="input"></ion-input>
+    </ion-item><br>
+    <ion-item class="labelR">  
+      <ion-label floating>Password</ion-label>
+      <ion-input type='password' value="" #password class="input"></ion-input>
+    </ion-item>
+   
+  </ion-list>
+  
+</ion-content>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD9pDpNMcvfEU3grGVujA6zR7N-hFFN9rE",
+    authDomain: "babylonapp3.firebaseapp.com",
+    databaseURL: "https://babylonapp3.firebaseio.com",
+    projectId: "babylonapp3",
+    storageBucket: "babylonapp3.appspot.com",
+    messagingSenderId: "182194368486"
+  };
+  firebase.initializeApp(config);
+</script>

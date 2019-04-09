@@ -1,0 +1,92 @@
+page-principal {
+    .bg-image3{
+        background-image: url('../assets/background/45142638_247824185891775_3392378351082536960_n.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+    /*.bg-icon{
+        background-image: url('../assets/icon/calendario.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+    }*/
+   /* .bg-farras{
+        background-image: url('../assets/icon/cerveza.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+    }*/
+   /* .bg-mi{
+        background-image: url('../assets/icon/estrella.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+    }*/
+    /*.bg-desahogo{
+        background-image: url('../assets/icon/megafono.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+    }*/
+   /* .bg-lista{
+        background-image: url('../assets/icon/ubicación.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+    }*/
+    .boton_pprincipal{
+        background-image: url('../assets/icon/calendario.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+        background-color: #D29337;
+        border-radius: 6px;
+        border: 2px solid gray;
+        padding: 15px 98px;
+    }
+    .boton_farras{
+        
+        background-image: url('../assets/icon/cerveza.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+        background-color: #A2732F;
+        border-radius: 6px;
+        border: 2px solid gray;
+        padding: 15px 120px;
+
+    }
+    .boton_mi{
+        background-image: url('../assets/icon/estrella.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain; 
+        background-color: #CC8216;
+        border-radius: 6px;
+        border: 2px solid gray;
+        padding: 15px 114px;
+    }
+    .boton_desahogo{
+        background-image: url('../assets/icon/megafono.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+        background-color: #FD9906;
+        border-radius: 6px;
+        border: 2px solid gray;
+        padding: 15px 99px;
+    }
+    .boton_lista{
+        background-image: url('../assets/icon/ubicación.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+        background-color: #F0E317;
+        border-radius: 6px;
+        border: 2px solid gray;
+        padding: 15px 75px;
+    }
+    
+
+}
