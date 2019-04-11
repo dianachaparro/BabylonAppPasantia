@@ -15,7 +15,9 @@ page-ingreso {
     }
  
     .labelR{
-        margin: 100px 3;
+        margin-left: 0,5;
+        margin-right: 0,5%;
+        margin-top: 5%;
         box-sizing: border-box;
        background-color: transparent;
        border: mediumblue;
@@ -23,6 +25,9 @@ page-ingreso {
     .toolbar-background{
         background-color: transparent!important;
         
+      }
+      .centrarI{
+          text-align: center;
       }
       
 
