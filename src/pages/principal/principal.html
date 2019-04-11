@@ -8,19 +8,21 @@
 
   <ion-navbar>
       <button ion-button menuToggle>
-          <ion-icon name="menu"></ion-icon>
+          <ion-icon name="menu" class="men"></ion-icon>
         </button>
-    <ion-title>PRINCIPAL</ion-title>
+    <h1 class="titulo">PRINCIPAL</h1>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding class="bg-image3">
-    
+    <div class="card">
+    <div class="card2">
       <ion-card>
           <ion-card-header class="boton_pprincipal" (click)='abrirp()'  >PROXIMA CITA</ion-card-header>
       </ion-card>
+    </div>
       <ion-card>         
           <ion-card-header class="boton_farras" (click)='abrirf()'  >FARRAS</ion-card-header>
       </ion-card>
@@ -33,7 +35,10 @@
       <ion-card>
           <ion-card-header class="boton_lista" >LISTA DE ASISTENCIA</ion-card-header>
       </ion-card>
-      
+    </div>
+     
+     
+     
 
       
     
@@ -41,6 +46,7 @@
         
 
 </ion-content>
+
 
 
 

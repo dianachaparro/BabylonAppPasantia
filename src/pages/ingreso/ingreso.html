@@ -8,16 +8,19 @@
 
   <ion-navbar>
       <button ion-button menuToggle class="toolbar-container">
-          <ion-icon name="menu"></ion-icon>
+          <ion-icon name="menu" class="men"></ion-icon>
         </button>
-    <ion-title>INGRESO</ion-title>
+    
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding class="bg-image2">
-  <ion-list >   
+  
+    <h1 class="titulo">INGRESO</h1>
+  
+    <ion-list >   
       
     <ion-item class="labelR">
       <ion-label floating>Correo</ion-label><br>
@@ -28,20 +31,19 @@
       <ion-input type='password' value="" #password class="input"></ion-input>
     </ion-item>
    
-  </ion-list>
+  </ion-list><br>
+  <br>
+  <div class="centrar" >
+      <a >Olvide mi contraseña</a><br>     
+      <br>
+       
+      <button ion-button  >
+      Iniciar seción
+      </button>
+  </div>
+  
   
 </ion-content>
 
-<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD9pDpNMcvfEU3grGVujA6zR7N-hFFN9rE",
-    authDomain: "babylonapp3.firebaseapp.com",
-    databaseURL: "https://babylonapp3.firebaseio.com",
-    projectId: "babylonapp3",
-    storageBucket: "babylonapp3.appspot.com",
-    messagingSenderId: "182194368486"
-  };
-  firebase.initializeApp(config);
-</script>
+
+

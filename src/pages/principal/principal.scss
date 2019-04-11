@@ -4,6 +4,7 @@ page-principal {
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
+        
     }
     /*.bg-icon{
         background-image: url('../assets/icon/calendario.png');
@@ -86,6 +87,23 @@ page-principal {
         border-radius: 6px;
         border: 2px solid gray;
         padding: 15px 75px;
+    }
+    .aqui{
+        background-color:red;
+        font-size:24px;
+        text-align:center
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .card2{
+        margin-top: 30px;
+    }
+    .titulo{
+        margin-top: 50px;
+    }
+    .men{
+        margin-top: 27px;
     }
     
 

@@ -8,33 +8,55 @@
 
   <ion-navbar>
       <button ion-button menuToggle>
-          <ion-icon name="menu"></ion-icon>
+          <ion-icon name="menu" class="men"></ion-icon>
         </button>
-    <ion-title>MI LUGAR</ion-title>
+    <ion-title class="titulo">MI LUGAR</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding class="bg-image5">
-<div calss="form-group"> 
-<label for="nombre">Nombre</label>
-<input type="text" class="form-control">  
-<label for="cedula"># Cédula</label>
-<input type="number" class="form-control">
-<label for="celular">Movil</label>
-<input type="number" class="form-control">
-<label for="fecha">Fecha de reserva</label>
-<input type="datetime-local" class="form-control">
-<label for="invitados"># invitados</label>
-<input type="number" class="form-control">
-<label for="motivo">Motivo celebración</label>
-<input type="text" class="form-control">
+<ion-list>
+  <ion-item class="labelMi">
+    <ion-label floating>Nombre</ion-label>
+    <ion-input type="text" value="" #nombre class="input" ></ion-input>
+  </ion-item><br>
+
+  <ion-item class="labelMi">
+    <ion-label for="cedula">CEDULA</ion-label>
+    <ion-input type="number" name="cedula"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="telefono">Telefono</ion-label>
+      <ion-input type="number" name="telefono"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelRe">
+      <ion-label for="fecha">Fecha de Reserva</ion-label>
+      <ion-input type="date" name="date"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="invitados">#Invitados</ion-label>
+      <ion-input type="number" name="invitados"></ion-input>
+  </ion-item>
+
+  <ion-item class="labelMi">
+      <ion-label for="motivo">Motivo</ion-label>
+      <ion-input></ion-input>
+  </ion-item>
 
 
+</ion-list>
+<a >Ver condiciones y restricciones</a><br>
 
-
-</div>
+ <div class="centrar">
+      <button ion-button  >
+      Crear Espacio
+      </button>
+  </div>
 
 
 </ion-content>
