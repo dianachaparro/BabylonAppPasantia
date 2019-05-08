@@ -10,16 +10,17 @@
         <button ion-button menuToggle class="toolbar-container">
             <ion-icon name="barcode" class="icon-men"></ion-icon>
           </button>
-      <ion-title class="titulo">REGISTRO</ion-title>
+      
     </ion-navbar>
 
   </ion-header>
 
 
-  <ion-content  class="bg-image1">
-    <div class="reg">
+  <ion-content   class="bg-image1">
+      <h1 class="titulo">REGISTRO</h1>
+    
     <ion-list>
-      <ion-item class="labelRe">
+      <ion-item class="labelRe ">
           <ion-label floating>Nombre</ion-label>
           <ion-input type="text" value="" #nombre class="input" ></ion-input>
       </ion-item><br>
@@ -46,18 +47,16 @@
         
         
       </ion-list>
-    </div>   
+   
 
   
    <div class="centrarR">
-      <ion-checkbox item-right secondary checked="true" [(ngModel)]="Acepto"></ion-checkbox><label >Acepto condiciones y restricciones</label><br>
+      <ion-checkbox item-right secondary checked="true" [(ngModel)]="Acepto"></ion-checkbox> <label class="espacio" ></label> <label class="CR" >Acepto condiciones y restricciones</label><br>
       <button ion-button  >
       Listo!
       </button>
   </div>
-  <div class="footer">
-      <p>Calle 49 # 7- 27 Tel:3123619980</p>
-    </div>
+ 
 
   </ion-content>
 

@@ -12,6 +12,7 @@ import { FarrasPage } from '../pages/farras/farras';
 import { MiPage } from '../pages/mi/mi';
 import { DesahogoPage } from '../pages/desahogo/desahogo';
 import { ListaPage } from '../pages/lista/lista';
+
 //import {FIREBASE_CONFIG} from './app.firebase.config';
 
 import { StatusBar } from '@ionic-native/status-bar';
