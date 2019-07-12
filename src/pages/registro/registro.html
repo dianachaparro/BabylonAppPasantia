@@ -17,42 +17,48 @@
 
 
   <ion-content   class="bg-image1">
-      <h1 class="titulo">REGISTRO</h1>
-    
-    <ion-list>
+      <p class="titulo"  >Tu primer paso para sentir <br>
+                             el poder Babylon </p>
+   
+
+     
+   <div class="d">
+     <ion-list>
       <ion-item class="labelRe ">
-          <ion-label floating>Nombre</ion-label>
-          <ion-input type="text" value="" #nombre class="input" ></ion-input>
+          <ion-label floating class="LN">Nombre</ion-label>
+          <ion-input type="text" value="" #nombre class="bordes" ></ion-input>
       </ion-item><br>
       
       <ion-item class="labelRe">
-          <ion-label for="fecha">Fecha de Nacimiento</ion-label>
-          <ion-input type="date" name="date"></ion-input>
+          <ion-label  for="fecha" class="LN">
+           <li> Fecha de </li>
+           <li> Nacimiento</li></ion-label>
+          <ion-input type="date" name="date" class="bordes1"></ion-input>
       </ion-item>
  
       <ion-item class="labelRe">
-          <ion-label for="telefono">Telefono</ion-label>
-          <ion-input type="number" name="telefono"></ion-input>
+          <ion-label for="telefono" class="LN">Telefono</ion-label>
+          <ion-input type="number" name="telefono" class="bordes1"></ion-input>
       </ion-item>
 
       <ion-item class="labelRe">
-          <ion-label for="email">Email</ion-label>
-          <ion-input type="email" name="email" ngModel #email></ion-input>
+          <ion-label for="email" class="LN">Correo</ion-label>
+          <ion-input type="email" name="email" ngModel #email class="bordes1"></ion-input>
       </ion-item>
 
       <ion-item class="labelRe">
-          <ion-label for="password">Password</ion-label>
-          <ion-input type="password" name="password"></ion-input>
+          <ion-label for="password" class="LN" >Contraseña</ion-label>
+          <ion-input type="password" name="password" class="bordes1"></ion-input>
       </ion-item>
-        
-        
+                
       </ion-list>
+    </div>
    
 
   
    <div class="centrarR">
-      <ion-checkbox item-right secondary checked="true" [(ngModel)]="Acepto"></ion-checkbox> <label class="espacio" ></label> <label class="CR" >Acepto condiciones y restricciones</label><br>
-      <button ion-button  >
+      <ion-checkbox item-right  checked="true" [(ngModel)]="Acepto"></ion-checkbox> <label class="espacio" ></label> <label class="CR" >Acepto condiciones y restricciones</label><br>
+      <button ion-button class="Listo" >
       Listo!
       </button>
   </div>

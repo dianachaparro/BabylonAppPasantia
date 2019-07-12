@@ -1,21 +1,16 @@
 <ion-header >
+  <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js" ></script>
   <ion-navbar >
-      <ion-toolbar >
-          <button ion-button menuToggle left >
-            <ion-icon name="barcode" ></ion-icon>
-          </button>
-          <ion-title clas="ion-title">
-           Home
-          </ion-title>
-      </ion-toolbar>
-          
-   </ion-navbar>
- 
+    <button ion-button menuToggle class="toolbar-container">
+     <ion-icon name="barcode" class="icon-men" ></ion-icon>
+   </button>
+   
+ </ion-navbar>
 </ion-header>
 
 <ion-content padding class="bg-image">
   
-  <div >
+  
   <div id="prueba">
  
     <a href='https://www.instagram.com/barcasababylon49'><ion-icon name="logo-instagram"></ion-icon></a>
@@ -28,11 +23,11 @@
      <Br>
      <Br>
      <Br> 
-     <div class="centrar">
+     <div class="centrarH" >
      
         <button ion-button class="boton" (click)='abrirR()' >REGISTRO</button>
         <button ion-button class="boton"  (click)='abrirI()'>INGRESO</button>
      
     </div>
-  </div>
+  
 </ion-content>

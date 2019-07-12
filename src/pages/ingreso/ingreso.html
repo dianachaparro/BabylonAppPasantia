@@ -37,13 +37,14 @@
       <a >Olvide mi contraseña</a><br>     
       <br>
        
-      <button ion-button  >
+     <!-- <button ion-button  >
       Iniciar seción
-      </button>
+      </button>--> 
   </div>
-  <div class="footer">
-      <p>Calle 49 # 7- 27 Tel:3123619980</p>
-    </div>
+  <div padding>
+    <button ion-button block type="submit" [disabled]="!myForm.valid">Ingresar</button>
+  </div>
+  
   
 </ion-content>
 

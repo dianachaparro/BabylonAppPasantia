@@ -12,6 +12,7 @@ import { FarrasPage } from '../pages/farras/farras';
 import { MiPage } from '../pages/mi/mi';
 import { DesahogoPage } from '../pages/desahogo/desahogo';
 import { ListaPage } from '../pages/lista/lista';
+import { CrPage } from '../pages/cr/cr';
 
 
 
@@ -38,7 +39,8 @@ export class MyApp {
       { title: 'Farras', component: FarrasPage },
       { title: 'Mi', component: MiPage },
       { title: 'Desahogo', component: DesahogoPage },
-      { title: 'Lista', component: ListaPage }
+      { title: 'Lista', component: ListaPage },
+      //{ title: 'Cr', component: CrPage }
     ];
 
   }

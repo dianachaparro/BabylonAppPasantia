@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CrPage } from '../cr/cr';
 
 /**
  * Generated class for the MiPage page.
@@ -20,6 +21,9 @@ export class MiPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MiPage');
+  }
+  abrirC(){
+    this.navCtrl.push(CrPage);
   }
 
 }

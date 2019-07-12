@@ -39,7 +39,8 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  botomhome: #9B0C11
+  botomhome: #9B0C11,
+  azul:blue,
     
 );
 .toolbar-background{
@@ -52,7 +53,8 @@ $colors: (
 }
 
 .titulo{
-  margin-top: 50px;
+  //margin-top: 50px;
+  padding-top: 8rem;
   color: #e6b42b;
   text-align: center;
 }
@@ -62,7 +64,8 @@ $colors: (
   color: #e6b42b;
 }
 .icon-men{
- color: #e6b42b;
+ color: tomato;
+ 
 }
 .footer {
   background-color: #0099cc;
@@ -74,10 +77,11 @@ $colors: (
 }
 .centrarR{
   text-align:center;
+  margin-top: -3rem;
  
 }
 .espacio{
-  letter-spacing: 10px;
+  letter-spacing: 100px;
  
 }
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController} from 'ionic-angular';
 import {DesahogoPage} from '../desahogo/desahogo';
 import {ProximaPage} from '../proxima/proxima';
 import {MiPage} from '../mi/mi';
