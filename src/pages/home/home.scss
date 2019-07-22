@@ -1,73 +1,84 @@
 page-home {
     .bg-image{
-        background-image: url('../assets/background/op4.jpeg');
+        background-image: url('../assets/background/op1.jpg');
         background-repeat: no-repeat;
         background-position: bottom; //Se ajusta el pie de la imagen en los dos celulares pero no se ajusta con respecto a la parte de arriba
         background-size: cover;
     }
     .ion-logo-facebook{
-        margin-left: 24.5rem;//funciona para LG e IPHONE de manera vertical
-        color:#C0392B;
-        font-size: 5rem;
-        margin-top: 2rem;    
+       //margin-left: 24.5rem;//funciona para LG e IPHONE de manera vertical
+       color:#C0392B;
+       font-size: 5rem;
+       //margin-top: 2rem;    
         
        }
-       @media screen and (min-width: 480px){//funciona para LG horizontal
+       /*@media screen and (min-width: 480px){//funciona para LG horizontal
         .ion-logo-facebook{
           margin-left: 36rem;
           margin-top: 0.1rem;
           color:#C0392B;
-          //font-size: rem;    
+          font-size: rem;    
           
-         }
+         }*/
 
        }
-       @media screen and (min-width: 600px){
+       /*@media screen and (min-width: 600px){
         .ion-logo-facebook{
           margin-left: 35rem;
           color:#C0392B;
-          //font-size: rem;    
+          font-size: rem;    
           
          }
 
-       }
+       }*/
       .ion-logo-instagram{
          color:#C0392B;
          font-size: 5rem;
-         margin-left: 2,5rem;
+         //margin-left: 2,5rem;
 
         
        }
-       @media screen and (min-width: 480px){ //LG Horizontal
+       /*@media screen and (min-width: 480px){ //LG Horizontal
         .ion-logo-instagram{
           color:#C0392B;
           font-size: 5rem;
-          margin-left: 5rem;
+          //margin-left: 5rem;
          
          
         }
-       }
-       #titulo{
+       }*/
+       /*#titulo{
            text-align: center;
            font-weight: bold;
            font-size: 40px;
-       }
-       .botonhome{
-        margin-left:80px;
-        margin-top:290px;
+       }*/
+       /*.botonhome{
+        //margin-left:80px;
+        //margin-top:290px;
         background-color: #C0392B;
              
+      }*/
+      @media screen and (max-width: 575px){
+
+      #insta{
+        margin-right: 23rem;
+        margin-left:2rem
       }
+      .centrarH {
+        margin-top: 26rem;
+        margin-left: 1rem;
+      }
+    }
       .boton{ //funciona LG vertical
         background-color: #C0392B;
         border-radius: 12px;
         border: 2px solid gray;
         size: 12rem;
         font-size: 2rem;
-        margin-top: 50%;
+       // margin-top: 50%;
       }
       
-      @media screen and (min-width: 375px){//funciona para iphone vertical
+      /*@media screen and (min-width: 375px){//funciona para iphone vertical
       .boton{
         background-color: #C0392B;
         border-radius: 12px;
@@ -77,8 +88,8 @@ page-home {
         margin-top: 70%;
         
         }
-      }
-      @media screen and (min-width: 500px) {//Funciona LG horizontal
+      }*/
+      /*@media screen and (min-width: 500px) {//Funciona LG horizontal
         .boton
         {
         background-color: #C0392B;
@@ -86,12 +97,12 @@ page-home {
         border: 2px solid gray;
         size: 12rem;
         font-size: 2rem;
-        margin-top: 0.05%;
+        //margin-top: 0.05%;
         
         }
         
-      }
-      @media screen and (min-width: 600px) {//Funciona iphone horizontal
+      }*/
+      /*@media screen and (min-width: 600px) {//Funciona iphone horizontal
         .boton
         {
         background-color: #C0392B;
@@ -99,30 +110,30 @@ page-home {
         border: 2px solid gray;
         size: 12rem;
         font-size: 2rem;
-        margin-top: 2%;
+        //margin-top: 2%;
         
         }
         .ion-logo-facebook{
-          margin-left: 41rem;
+          //margin-left: 41rem;
           color:#C0392B;
-          margin-top: 4%;    
+          //margin-top: 4%;    
           
          }
          .ion-logo-instagram{
           color:#C0392B;
           font-size: 5rem;
-          margin-left: 6rem;
+          //margin-left: 6rem;
         
          }
-      }
-        @media screen and (min-width: 400px){     
+      }*/
+         /*@media screen and (min-width: 400px){     
          
-          /*boton{            
+         boton{            
             margin-top: 0,1rem;
              width: 30%;
              position: unset;
              
-          }*/
+          }
         
           .bg-image{
             background-image: url('../assets/background/APP01.jpg');
@@ -132,15 +143,15 @@ page-home {
           }
 
         
-      }
-      @media screen and (min-width: 600px){     
+      }*/
+      /*@media screen and (min-width: 600px){     
          
         /*.boton{            
           //margin: -20px;
            width: 30%;
            position: unset;
            
-        }*/
+        }
       
         .bg-image{
           background-image: url('../assets/background/APP01.jpg');
@@ -151,14 +162,14 @@ page-home {
         }
 
       
-    }
-        .centrar{
-          padding-top: 250px;
+    }*/
+        /*.centrar{
+          //padding-top: 250px;
           text-align:center
          }
          
         .centrarH{
-          padding-top: 45px;
+          //padding-top: 45px;
           text-align:center
          }
          .homme{
@@ -167,8 +178,8 @@ page-home {
          
          .menu ul {
           list-style-type: red;
-          margin: 0;
-          padding: 0;
+          //margin: 0;
+          //padding: 0;
         }
 
         .topnav:hover {
@@ -176,7 +187,7 @@ page-home {
           
         }
         .navbar {
-          margin-bottom: 0;
+          //margin-bottom: 0;
           background-color: #f4511e;
           z-index: 9999;
           border: 0;
@@ -192,4 +203,6 @@ page-home {
       
       
 
-}
+}*/
+
+
