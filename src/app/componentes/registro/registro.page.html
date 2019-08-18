@@ -1,0 +1,37 @@
+<ion-content padding class="bg-image">
+  <p class="titulo"  >Tu primer paso para sentir <br>
+    el poder Babylon </p>
+  <ion-item>
+    <ion-label> Nombre</ion-label>
+    <ion-input type="text" [(ngModel)]="nombre" name="nombre"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label> Fecha de nacimiento</ion-label><br>
+    <ion-input type="date" [(ngModel)]="fechanacimiento" name="fechanacimiento"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label > Teléfono</ion-label>
+    <ion-input type="number" [(ngModel)]="telefono" name="telefono"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label> Correo electrónico</ion-label>
+    <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label> Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
+  </ion-item>
+  <br>
+  <div class="centrarR">
+    <ion-checkbox item-right  checked="true" ></ion-checkbox> <label class="espacio" ></label> <label class="CR" >Acepto condiciones y restricciones</label><br>
+    <div class="right-align">
+      <button ion-button class="Listo" (click)="OnSubmitRegister()">¡Listo!</button>
+    </div>
+</div>
+  <br>
+  <button ion-button class="Listo1" text-center routerLink="/login">Ya tengo cuenta</button>
+  <p text-center routerLink="/home1">¿Olvidaste tu contraseña?</p>
+
+
+
+</ion-content>

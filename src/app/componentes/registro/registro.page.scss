@@ -1,0 +1,45 @@
+ion-content.bg-image{
+    --background: url(../../../assets/background/op3.jpeg) 0 0/100% 100% no-repeat;
+}
+
+.titulo{
+    //margin-top: 50px;
+    padding-top: 2rem;
+    color: #e6b42b;
+    text-align: center;
+  }
+
+  .CR {
+      color: #e6b42b;
+  }
+
+  ion-item {
+    --highlight-color-valid: transparent !important;
+  }
+
+  .Listo{
+    text-align:center;
+    margin-left: 48% ;
+    //margin-top: -5rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 6rem ;
+    color: black;
+    background-color: 208 175 127 100;
+    background-color: #e6b42b;
+  }
+
+  .Listo1{
+    text-align:center;
+    //margin-top: -5rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 100% ;
+    color: black;
+    background-color: 208 175 127 100;
+    background-color: #e6b42b;
+  }
+
+  .right-align{
+      text-align: right;
+  }

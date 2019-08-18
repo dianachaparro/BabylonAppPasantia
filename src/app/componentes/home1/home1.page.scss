@@ -1,0 +1,35 @@
+ion-content.bg-image{
+    --background: url(../../../assets/background/op1.jpg) 0 0/100% 100% no-repeat;
+}
+
+ion-icon {
+    color:#C0392B;
+    font-size: 3rem;
+}
+
+.boton {
+    background-color: #C0392B;
+    border-radius: 12px;
+    border: 2px solid gray;
+    size: 8rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#botonesredessociales {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+#face{
+    margin-left: 15rem;
+}
+
+.botonesingresoregistro{
+    margin-top: 17rem;
+    margin-left: 2rem;
+}
+
+#ingreso{
+    margin-left: 4rem;
+}

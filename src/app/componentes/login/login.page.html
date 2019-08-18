@@ -1,0 +1,18 @@
+<ion-content padding class="bg-image">
+    <h1 class="titulo">INGRESO</h1>
+  <ion-item style="background-color: transparent">
+    <ion-label> CORREO</ion-label>
+    <ion-input type="text" [(ngModel)]="email" name="email" class="inputlogin"></ion-input>
+  </ion-item>
+  <ion-item class="inputlogin">
+    <ion-label> PASSWORD</ion-label>
+    <ion-input [(ngModel)]="password" type="password" name="password"></ion-input>
+  </ion-item>
+  <p text-center routerLink="/registro">Crear cuenta</p>
+  <p text-center routerLink="/home1">¿Olvidaste tu contraseña?</p>
+  <br>
+  <button ion-button block class="botoningreso" (click)="onSubmitLogin()" expand="block">Entrar</button>
+  <br>
+
+
+</ion-content>
